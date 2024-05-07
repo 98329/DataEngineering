@@ -1,0 +1,15 @@
+package.js
+{
+  "name": "flask-app",
+  "version": "1.0.0",
+  "description": "A Flask application running on Glitch",
+  "main": "my_browser_app.py",
+  "scripts": {
+    "start": "python my_browser_app.py"
+  },
+  "dependencies": {
+    "Flask": "1.1.2",
+    "pymysql": "1.0.0",
+    "selenium": "4.18.1"
+}
+}

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Set environment variables
+export FLASK_APP=my_browser_app.py
+export FLASK_ENV=development
+
+# Install required packages (including Selenium)
+pip install -r requirements.txt
+
+# Start Flask application
+flask run --host=0.0.0.0 --port=3000
